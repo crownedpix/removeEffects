@@ -1,0 +1,41 @@
+.pin-groupBlock{ background: #e8e8e8; 
+    .pin-groupTop{border-bottom: 3px solid #fbc436; 
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc; 
+    border-top: 1px solid #ccc; 
+    .AboutUser{ margin: 0 auto; float: none; padding: 20px 0 10px; 
+        div{ font-weight: 700; 
+            p{ font-weight: 400; }
+        }
+        span.user-img{ display: block; width:45px; height: 45px; margin: 0 auto; border-radius:45px; background-position: center center !important; background-size: cover !important; border: 1px solid #696969; margin-bottom: 10px;  }
+        h3{ margin: 0px; padding: 0px; }
+    }
+}
+    
+.pin-groupBottom{
+    background: #efefef; 
+    padding: 10px 0 50px;
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+    .col-md-3{ padding-left: 5px;
+    padding-right: 5px; }
+        .pin-group-detail{
+            background: #e8e8e8; 
+            padding: 10px;
+            border-radius: 3px; 
+            border:1px solid #ccc;
+            span.user-img{ display: block; width:100%; height: 160px; margin: 0 auto; border-radius:2px; background-position: center center !important; background-size: cover !important; border: 1px solid #696969; margin-bottom: 10px;  }
+        h3{ margin: 0px; padding: 0px; font-size: 16px; padding-bottom: 10px;  }
+        }
+        .otherImages{
+            .thumgIcon{ float: left; width: 30%;
+                &.aligncent{margin-left: 5%; }
+            }
+            span{ display: block; width:100%; height: 65px; margin: 0 auto; border-radius:2px; background-position: center center !important; background-size: cover !important; border: 1px solid #696969; margin-bottom: 10px;  }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,15 @@
+#nextItemAnimB, #nextItemAnim{ overflow:hidden; border:1px solid #ccc; padding:10px; height:130px;  }
+.item{ width:200px; border:1px solid #ccc; padding:10px; float:left; margin-right:10px;  }
+
+.item+.item{ opacity:0.5; position:relative; }
+.item:after{ content:""; display:block; clear:both; }
+.item a.img{ width:40px; float:left; }
+.item a.img img{ width:100%; height:60px;}
+.item .content{ width:120px; float:left; margin-left:10px; }
+.item .content a{ display:block; float:left; padding:0 4px; margin-right:2px; text-decoration:none; line-height:20px; border:1px solid #ccc; color:#696969; }
+.item .content a:hover{ text-decoration:none; }
+
+.animateDiv{ position:relative; }
+.animateDiv .OutItem{ position:absolute; top:-10px;}		
+
+
